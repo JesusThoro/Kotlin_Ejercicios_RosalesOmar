@@ -1,5 +1,10 @@
 fun main() {
-    val numeros = doubleArrayOf(10.0, 20.0, 30.0, 40.0, 50.0)
+    // Crear un array de números enteros
+    val numeros = intArrayOf(10, 20, 30, 40, 50)
+
+    // Calcular el promedio
     val promedio = numeros.average()
+
+    // Mostrar el promedio
     println("El promedio de los elementos del array es: $promedio")
 }
